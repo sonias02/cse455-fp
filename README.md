@@ -2,6 +2,9 @@
 ## Names
 Sonia Saitawdekar and Himani Nijhawan
 
+## Demo Video
+[Demo Video Link](https://youtu.be/NsMlCR-vYBI)
+
 ## Problem description
 We wanted to write a program that would create a mosaic-style artistic version of an image. We wanted to take in an image from the user (or use a default rose image) and turn it into a mosaic of smaller rose images. Based on the input, the goal was to create the mosaic by applying coloring to the smaller pictures to fit the pixel colors of the larger picture. Thus, when the smaller pictures are all put together in a collage, their coloring should reveal the larger picture.
 
@@ -42,4 +45,3 @@ Dog                     |  Dog Mosaic
 
 **Difference from others**: We noticed that some mosaic creators will choose the small image position by matching it's average color with the desired color need at that pixel. This limits the diversity of the images used, especially if the colors in the big image are all similar. Our approach is better since it doesn't matter what the small image is since it will be given a color filter to match the desired color. This way, our art is more customizable since users could theoretically choose whatever smaller images they want.
 
-## Demo Video
